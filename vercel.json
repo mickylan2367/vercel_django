@@ -4,7 +4,7 @@
     ],
     "builds": [
         {
-            "src": "config/wsgi.py",
+            "src": "mikanproject/wsgi.py",
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
@@ -26,7 +26,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "config/wsgi.py"
+            "dest": "mikanproject/wsgi.py"
         }
     ]
 }
