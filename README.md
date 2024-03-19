@@ -1,0 +1,2 @@
+# vercel_django
+djangoをvercelからデプロイできないか試すリポジトリ
